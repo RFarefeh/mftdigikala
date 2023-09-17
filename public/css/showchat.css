@@ -1,0 +1,156 @@
+div.chat{
+    width:100%;
+    position: relative;
+}
+
+
+
+div.chat > label > div.circle {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: rgb(239, 64, 86);
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+#show{
+    display:none;
+    
+}
+
+div.chat > label > div.circle > i {
+    color: white;
+    line-height: 48px;
+    font-size: 20px;
+}
+
+
+#show-chat:checked ~ div.open {
+    display:none;
+   
+}
+
+div.chat > div.open {
+    width: 380px;
+    height: 70vh;
+    border-radius: 20px;
+    border: 1px solid rgb(239, 64, 86);
+    background-color: white;
+    position: absolute;
+    top: calc(-70vh - 88px);
+    left: 60px;
+   
+   
+   
+}
+div.chat > div.open > p.head {
+    background-color: rgb(239, 64, 86);
+    color: white;
+    font-family: yekan;
+    font-size: 20px;
+    padding: 18px 22px;
+}
+
+div.chat > div.open > p.head > label {
+    float: left;
+    cursor: pointer;
+}
+
+div.chat > div.open > p.head > label > i {
+    line-height: 28px;
+    font-weight: bold;
+}
+
+div.chat > div.open > p.rest {
+    font-family: yekan;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    line-height: 28px;
+    padding: 10px 10px 10px 0;
+}
+div.chat > div.open > p.rest > span {
+    font-size: 22px;
+    display: block;
+    padding: 10px 0;
+}
+div.chat > div.open > div {
+    width: calc(100% - 20px);
+    margin: 3px 10px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e6;
+    display: inline-block;
+    position: relative;
+}
+
+div.chat > div.open > div > p {
+    font-family: yekan;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    float: right;
+}
+div.chat > div.open > div > label {
+    cursor: pointer;
+    float: left;
+}
+div.chat > div.open > div > input {
+    display:none;
+}
+
+div.chat > div.open > div > div {
+    margin-top: 40px;
+    padding-top: 16px;
+    border-top: 1px solid #e0e0e6;
+    display: none;
+}
+div.chat > div.open > div > div > p {
+    font-family: yekan;
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(93, 93, 93);
+}
+div.chat > div.open > div > div.close {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-top: unset;
+    position: absolute;
+    top: -27px;
+    left: 19px;
+    text-align: center;
+}
+div.chat > div.open > div > div.close > label {
+    cursor: pointer;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#show-chat:checked ~ div.close {
+    display: block;
+}
+div.chat > label > div.close {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: rgb(239, 64, 86);
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+div.chat > label > div.close > i {
+    color: white;
+    line-height: 48px;
+    font-size: 16px;
+}

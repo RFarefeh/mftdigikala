@@ -1,0 +1,134 @@
+div.selected{
+    width: 97%;
+    height: 650px;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    margin:0 auto;
+}
+div.selected div.text {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+   
+}
+div.selected div.text h3{
+    font-family: yekan;
+    font-size: 22px;
+    font-weight: 600;
+   
+
+}
+div.selected div.text  img{
+    width:24px;
+    height: 24px;
+ 
+}
+div.selected div.select{
+    width: 100%;
+    height: 586px;
+    
+    
+}
+div.selected .swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    transition-timing-function: var(--swiper-wrapper-transition-timing-function,initial);
+    box-sizing: content-box;
+}
+div.selected .swiper-wrapper  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: calc(100% / 3) !important;
+
+    border-bottom: 1px solid rgb(243, 240, 240);
+    border-left: 1px solid rgb(243, 237, 237);
+    
+   
+    
+}
+
+div.selected div.swiper-slide > a {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    text-decoration: none;
+    
+}
+div.selected div.swiper-slide > a  div.cost{
+    width: 300px;
+    height: 100%;
+    display:flex;
+    
+    justify-content:space-between;
+   
+}
+
+div.selected div.swiper-slide > a > img {
+    width: 150px;
+    height: 150px;
+    
+    position: relative;
+    top: calc(50% - 86px / 2);
+   
+    
+    
+}
+div.selected div.swiper-slide > a >div.cost  h4{
+    width:fit-content;
+    font-family: yekan;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2b2b2b;
+    line-height: 20px;
+    margin-right: 160px;
+    
+   
+    
+    
+    
+}
+div.selected div.swiper-slide > a > div.cost span{
+    width: 40px;
+    background-color:#EF394E;
+    border-radius: 10px;
+    color:whitesmoke;
+    font-family:yekan;
+    font-size: 14px;
+    
+    
+    
+    
+    
+   
+}
+div.selected div.swiper-slide > a > div.cost img {
+    width: 20px;
+    height: 20px;
+   
+   
+}
+div.selected div.swiper-slide > a p{
+    text-decoration: line-through;
+    width:fit-content;
+    font-family: yekan;
+    font-size: 13px;
+    font-weight: 400;
+    color:gray;
+    line-height: 20px;
+    margin-right: 200px;
+}
+
+
+
+
+
+

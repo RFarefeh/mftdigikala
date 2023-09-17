@@ -1,0 +1,390 @@
+header{
+    width: 100%;
+    height: 170px;
+    position: sticky;
+   
+}
+header>div.headertop{
+    width: inherit;
+    height: 60px;
+    
+}
+header>div.headertop>img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    object-position: center center;
+}
+header>div.headerBottom{
+    width: 100%;
+    height: 110px;
+    box-shadow: 0 1px 2px #2b2b2b;
+}
+header>div.headerBottom>div.btop{
+    width: inherit;
+    height: 70px;
+    margin: 0 auto;
+}
+
+header>div.headerBottom>div.btop>div.logo{
+    width: 10%;
+    height: inherit;
+    display:inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+header>div.headerBottom>div.btop>div.logo> a svg{
+    width: 100%;
+    margin-top: 20px;
+}
+
+header>div.headerBottom>div.btop>div.search{
+    width: 73%;
+    height: inherit;
+    display:inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+    position: relative;
+}
+header>div.headerBottom>div.btop>div.search>i{
+    position: absolute;
+    right: 1%;
+    top: 53%;
+    transform: translate(-50%,-50%);
+    color:darkgray ;
+}
+
+header>div.headerBottom>div.btop>div.search>input[type=text]{
+width: 55%;
+height: 45px;
+margin-top: 15px;
+background-color: #F1F2F4;
+border: unset;
+border-radius: 10px;
+padding-right: 45px;
+font-family:yekan ;
+transition: 300ms;
+}
+header>div.headerBottom>div.btop>div.search>input[type=text]:focus{
+    outline: unset;
+    background-color:darkgray;
+}
+header>div.headerBottom>div.btop>div.search>input[type=text]::placeholder{
+    font-size: 11px;
+}
+header>div.headerBottom>div.btop>div.search>input[type=text]:focus::placeholder{
+
+color:#F1F2F4;
+}
+header>div.headerBottom>div.btop>div.login{
+    width:10%;
+    height: inherit;
+    display:inline-block;
+    
+    
+}
+header>div.headerBottom>div.btop>div.login>div{
+    width: 180px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+
+    
+}
+header>div.headerBottom>div.btop>div.login>div>a{
+display:block;
+width: 150px;
+height: 40px;
+background-color:#ffffff ;
+margin: 15px auto;
+text-align: center;
+line-height: 40px;
+text-decoration: none;
+font-family: yekan;
+font-size: 12px;
+color:#080A38 ;
+font-weight: bold;
+border: 1px solid lightgrey;
+border-radius: 10px;
+}
+header>div.headerBottom>div.btop>div.login>div>a>i{
+    font-size: 16px;
+    vertical-align: middle;
+    color: #3F4064;
+    transform: rotate(180deg);
+    margin: 0 5px
+}
+header>div.headerBottom>div.btop>div.login div>span{
+    width: 10%;
+    height: 24px;
+    display: inline-block;
+    margin-right: 10px;
+}
+header>div.headerBottom>div.btop>div.login div  span  div.shop i{
+    width: 24px;
+    height: inherit;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    line-height: 25px;
+    transform: rotate3d(0, 1, 0, 180deg);
+    
+}
+
+
+
+header>div.headerBottom>div.bBottom{
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    padding:0 16px;
+    display: flex;
+    justify-content:right;
+    
+    
+    
+    
+}
+header>div.headerBottom>div.bBottom>nav{
+    width: 100%;
+    height: 40px;
+   
+    
+    
+}
+
+header>div.headerBottom>div.bBottom>nav>div.menu{
+    width: 100%;
+    height: 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+  
+}
+
+
+
+header>div.headerBottom>div.bBottom>nav>div.menu div.org{
+    width:fit-content;
+    height: 100%;
+    cursor: pointer;  
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    font-weight: 600;
+    font-family: yekan;
+    font-size: 14px;
+    
+   
+}
+header>div.headerBottom>div.bBottom> nav > div.menu > div:hover {
+    border-bottom: 2px solid #e6123d;
+}
+header>div.headerBottom>div.bBottom>nav>div.menu div.org p{
+    width: fit-content;
+    height: inherit;
+    display:inline-block;
+   
+    text-decoration: none;
+    font-size: 14px;
+    
+    
+}
+header>div.headerBottom>div.bBottom>nav>div.menu div.org i{
+    padding: 5px;
+}
+
+header>div.headerBottom>div.bBottom>nav>div.menu div{
+    padding-right: 20px;
+}
+header>div.headerBottom>div.bBottom>nav>div.menu div a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #3F4064;
+    font-family: yekan;
+    font-weight: normal;
+   
+}
+header>div.headerBottom>div.bBottom> nav > div.menu > div.org > div.submenu {
+    width: 97%;
+    height: calc(81.5vh - 168px);
+    position: absolute;
+    left: 1%;
+    top: 168px;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0px 0.5px 1px rgb(90, 92, 122);
+    z-index: 3;
+    display: none;
+}
+header>div.headerBottom>div.bBottom>  nav > div.menu > div.org:hover > div.submenu {
+    display: block;
+}
+header>div.headerBottom>div.bBottom> nav > div.menu > div.org > div.submenu > div.all {
+    width: 12%;
+    height: 100%;
+    background-color: white;
+    border-radius: 0 0 8px 0;
+    overflow: auto;
+    border-left: 1px solid rgb(238, 238, 240);
+    direction: ltr;
+}
+
+header>div.headerBottom>div.bBottom> nav > div.menu > div.org > div.submenu > div.all > div {
+    width: 100%;
+    height: calc(594px / 12);
+    padding: 12px 8px;
+    cursor: pointer;
+}header>div.headerBottom>div.bBottom> nav > div.menu > div.org > div.submenu > div.all > div > p {
+    font-family: yekan;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: calc(594px / 12 - 24px);
+    color: #3f4064;
+    float: right;
+   
+}header>div.headerBottom>div.bBottom> nav > div.menu > div.org > div.submenu > div.all > div:nth-of-type(1) > div {
+    z-index: 3;
+}
+
+header>div.headerBottom>div.bBottom> nav > div.menu > div.org > div.submenu > div.all > div > div {
+    width: 88%;
+    height: 100%;
+    padding: 0 18px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: white;
+    border-radius: 0 0 0 8px;
+    overflow: auto;
+    text-align: right;
+    cursor: default;
+}
+
+header>div.headerBottom>div.bBottom> div.menu > div.org > div.submenu > div.all > div > div > div.all-of {
+    width: 100%;
+    height: 65px;
+}
+header>div.headerBottom>div.bBottom> div.menu > div.org > div.submenu > div.all > div > div > div.scroll-r {
+    direction: rtl;
+}
+
+
+header>div.headerBottom> nav > div.menu > div.org > div.submenu > div.all > div > div > div.all-of > p {
+    width: unset;
+    margin: unset;
+    float: right;
+    font-family: yekan;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 65px;
+    cursor: pointer;
+    color: #3f4064;
+}
+header>div.headerBottom> nav > div.menu > div.org > div.submenu > div.all > div > div > div.scroll-r > div.list-1 {
+    width: 20%;
+    height: 494px;
+    display: inline-block;
+}
+
+
+header>div.headerBottom> nav > div.menu > div.org > div.submenu > div.all > div > div > div.scroll-r > div.list-1 {
+    width: 20%;
+    height: 494px;
+    display: inline-block;
+}
+header>div.headerBottom> nav > div.menu > div.org > div.submenu > div.all > div > div > div.scroll-r > div > p.tittle {
+    font-size: 14px;
+    font-weight: bold;
+    color: #31324a;
+    border-right: 2px solid #e6123d;
+    padding-right: 10px;
+}
+
+
+header>div.headerBottom> nav > div.menu > div.org > div.submenu > div.all > div > div > div.scroll-r > div > p.tittle > i {
+    line-height: 23.5px;
+    color: #3f4064;
+    font-size: 12px;
+    padding-right: 4px;
+}
+header>div.headerBottom> nav > div.menu > div.org > div.submenu > div.all > div > div > div.scroll-r > div > p {
+    width: calc(100% - 8px);
+    height: auto;
+    margin: 6px 0 6px 8px;
+    float: right;
+    font-family: yekan;
+    font-size: 12px;
+    color: rgb(105, 107, 139);
+    cursor: pointer;
+}
+
+header>div.headerBottom> nav > div.menu > div.org > div.submenu > div.all > div {
+    width: 100%;
+    height: calc(594px / 12);
+    padding: 12px 8px;
+    cursor: pointer;
+}
+header>div.headerBottom> nav > div.menu > div.org > div.submenu > div.all > div > p {
+    font-family: yekan;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: calc(594px / 12 - 24px);
+    color: #3f4064;
+    float: right;
+}
+header>div.headerBottom> nav > div.menu > div.org > div.submenu > div.all > div > p > i {
+    font-size: 14px;
+    color: black;
+    padding-left: 10px;
+    line-height: calc(594px / 12 - 24px);
+    float: right;
+}
+header>div.headerBottom>div.bBottom> div.menu > div.org > div.submenu > div.all > div > div > div.all-of p {
+    width: unset;
+    margin: unset;
+    float: right;
+    font-family: yekan;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 65px;
+    cursor: pointer;
+    color: #3f4064;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

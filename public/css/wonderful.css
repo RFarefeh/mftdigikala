@@ -1,0 +1,93 @@
+div.wonderful{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+div.wonderful>div.item{
+    width: 98%;
+    height:300px;
+    margin: 0 auto;
+    padding: 20px 20px 20px 2px;
+    box-sizing: border-box;
+    background-color: crimson;
+    border-radius: 20px;
+}
+div.wonderful>div.item  div.imagewonderful{
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+div.wonderful>div.item  div.imagewonderful>img{
+    width: 150px;
+    height: 150px;
+    display: inline-block; 
+}
+.changeax{
+    flex-flow: column wrap;
+}
+div.wonderful>div.item div.price{
+    width:100%;
+}
+div.wonderful>div.item div.price>div.left , div.wonderful>div.item div.price>div.right{
+    display: inline-block;
+  
+}
+div.wonderful>div.item  div.price>div.left{
+    font-size: 12px;
+    font-family: yekan;
+    text-align: left;
+    font-weight: bold;
+    width: 50%;
+   
+    
+}
+div.wonderful>div.item  div.price>div.right{
+    font-size: 11px;
+    font-family: yekan;
+    text-align: right;
+    font-weight: bold;
+    width: 40%;
+   
+}
+div.wonderful>div.item  div.price>div.right>span{
+    padding: 1px 8px 1px 8px;
+    box-sizing: border-box;
+    background-color: crimson;
+    color: whitesmoke;
+    border-radius:15px ;
+}
+div.wonderful>div.item div.deleteprice{
+    width: 150px;;
+    margin-top:10px;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 12px;
+    text-decoration: line-through;
+    color: gray;
+}
+div.swiper-slide:nth-last-of-type(10){
+    background: transparent;
+}
+
+div.swiper-slide:nth-last-of-type(9){
+    border-radius: 0 10px 10px 0;
+}
+div.swiper-slide:nth-last-of-type(1){
+    border-radius: 10px 0 0 10px;
+}
+.changewow{
+    flex-flow: column-reverse;
+}
+
+div.wonderful>div.item  div>h3{
+    font-family: yekan;
+    font-weight: bold;
+    font-size: 25px;
+    color: whitesmoke;
+
+}
+
+
+
+
+

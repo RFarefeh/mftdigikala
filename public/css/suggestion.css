@@ -1,0 +1,42 @@
+div.suggestions{
+width: 100%;
+height: 400px;
+background-color: aqua;
+position:relative;
+}
+div.suggestions>h3{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 21px;
+    font-family: yekan;
+    font-weight:normal;
+    padding: 50px;
+}
+div.suggestions div.suggest{
+    width: inherit;
+    height:300px;
+    border: 1px solid darkgray;
+    border-radius: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    
+    
+
+
+}
+
+    
+div.suggestions div.suggest a img{
+    width: 60px;
+    height: 60px;
+}
+div.suggestions div.suggest a span{
+
+    text-decoration: none;
+    
+}
+
+
+

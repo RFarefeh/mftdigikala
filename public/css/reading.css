@@ -1,0 +1,33 @@
+div.reading{
+    width:90%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px ;
+    justify-content:space-between;
+    align-items: center;
+    align-items: center;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    
+    
+ 
+}
+
+div.reading  p{
+    font-family: yekan;
+    font-size: 16px;
+    font-weight:600;
+
+}
+div.reading  a{
+    text-decoration: none;
+    font-family: yekan;
+    font-size: 14px;
+    font-weight: normal;
+    color:#19BFD3;
+
+}
+
+
+

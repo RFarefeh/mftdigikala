@@ -1,0 +1,156 @@
+div.headerBottom > div.bBottom> div.location:hover {
+    overflow:visible;
+    position: relative;
+}
+
+div.headerBottom > div.bBottom > div.location {
+    display: inline-block;
+    width:210px;
+    height: 40px;
+    vertical-align: top;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+
+div.headerBottom > div.bBottom > div.location  label>p{
+    width: fit-content;
+    display:block;
+    line-height: 40px;
+    font-size: 12px;
+    font-family: yekan;
+    color: rgb(61, 62, 76);
+    cursor: pointer;
+    box-sizing: border-box;
+
+    
+}
+div.headerBottom > div.bBottom > div.location  label i{
+    font-size: 14px;
+    padding-left: 8px;
+    line-height: 40px;
+    color: #3f4064;
+   
+}
+
+#show , #close{
+    display:none;
+}
+div.headerBottom > div.bBottom > div.location div{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(63, 64, 100);
+    border-radius: 4px;
+    text-align: center;
+}
+div.headerBottom > div.bBottom > div.location div p{
+    line-height: 40px;
+    font-size: 12px;
+    font-family: yekan;
+    color: whitesmoke;
+}
+div.headerBottom > div.bBottom > div.location div.loc{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(27, 17, 78, 0.304);
+    display:none;
+    
+}
+div.headerBottom > div.bBottom > div.location div.loc div.locations{
+    width: 28%;
+    height: 80vh;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: calc(50% - 80vh / 2);
+    right: calc(50% - 28% / 2);
+    display:block;
+    box-sizing: border-box;
+}
+#show:checked ~ div.locations{
+    display:block;
+}
+div.headerBottom > div.bBottom > div.location div.loc div.locations label i{
+    float: left;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 22px;
+    color: rgb(90, 92, 122);
+    cursor: pointer;
+}
+
+div.headerBottom > div.bBottom > div.location div{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(63, 64, 100);
+    border-radius: 4px;
+    text-align: center;
+    
+}
+div.headerBottom > div.bBottom div.locations div.all-loc{
+    width: 100%;
+    height: calc(100% - 58px);
+    overflow: auto;
+}
+div.headerBottom > div.bBottom > div.location div.loc div.locations div:nth-last-of-type(1){
+    width: calc(100% - 20px * 2);
+    height: 58px;
+    margin: 0 20px;
+    border-bottom: 1px solid rgb(224, 224, 225);
+}
+div.headerBottom > div.bBottom > div.location div.loc div.locations div:nth-last-of-type(1) p{
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    line-height: 58px;
+    font-family: yekan;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(63, 64, 100);
+}
+div.headerBottom > div.bBottom >div.locations div.all-loc{
+    width: 100%;
+    height: calc(100% - 58px);
+    overflow: auto;
+    
+}
+div.headerBottom > div.bBottom >div.locations div.all-loc div{
+    width: calc(100% - 20px * 2);
+    height: 56px;
+    margin: 0 20px;
+    border-bottom: 1px solid rgb(240, 240, 244);
+}
+div.headerBottom > div.bBottom >div.locations div.all-loc div:nth-of-type(1) p{
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    line-height: 56px;
+    font-family: yekan;
+    font-size: 15px;
+    font-weight: bold;
+    color: #19bfd3;
+    cursor: pointer;
+
+}
+div.headerBottom > div.bBottom >div.locations div.all-loc div div{
+    width: 100%;
+    height: calc(100% - 58px);
+    overflow: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    display: none;
+}
+
+
+
+
+
+

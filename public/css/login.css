@@ -1,0 +1,103 @@
+div.sign-in {
+    width: 400px;
+    height: 400px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid rgb(224, 224, 230);
+    position: absolute;
+    top: calc(50% - 400px / 2);
+    left: calc(50% - 400px / 2);
+    padding: 32px;
+    display: block;
+    text-align: center;
+}
+div.sign-in div.image {
+    width:340px ;
+    height: 50px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    
+}
+div.sign-in div.image>a{
+    width: 150px;
+    height: 40px;
+}
+div.sign-in div.image>a>svg{
+    width: 150px;
+    height: 50px;
+}
+div.sign-in div.text {
+    width: 100%;
+    height: 100px;
+    display: block;
+    margin-top: 10px;
+    font-family: yekan;
+    font-size: medium;
+    font-weight: bold;
+
+
+}
+div.sign-in div.text h3{
+    width:100%;
+    height: 30px;
+    text-align: right;
+}
+div.sign-in div.text p{
+    width:100%;
+    height: 30px;
+    text-align: right;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 16px;
+}
+div.sign-in div.input{
+    width: 100%;
+    height: 150px;
+    
+
+
+}
+div.sign-in div.input>form{
+    width: 100%;
+    height: 150px;
+
+}
+div.sign-in div.input>form>input{
+    width: 100%;
+    height: 48px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid rgb(224, 224, 230);
+  
+    
+}
+
+div.sign-in div.input>form>input:nth-of-type(2){
+    border: unset;
+    background-color:#EF4056;
+    color: white;
+    font-family: yekan;
+    cursor: pointer;
+    font-size: small;
+    
+}
+
+
+div.sign-in div.terms{
+    width: 100%;
+    height:50px;
+    font-size:10px;
+    font-family: yekan;
+    
+
+}
+div.sign-in div.terms span{
+    color: #2199BE;
+}
+
+
+
+
+
+

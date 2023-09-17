@@ -1,0 +1,151 @@
+div.dgplus{
+    width: 95%;
+    height: 400px;
+    background-color:#941B80;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+   
+}
+div.dgplus div.pic {
+    width: 500px;
+    height: inherit;
+    
+}
+
+
+div.dgplus div.pic  div>img{
+    width: 350px;
+    height: auto;
+    flex-direction: column;
+    
+    
+}
+div.dgplus div.pic div.dg{
+    width: 350px;
+    height: auto;
+    flex-direction: column;
+}
+div.dgplus div.pic div.dg>a{
+    margin: 10px;
+    
+   
+}
+div.dgplus div.pic div.dg>a>img{
+
+    padding-right: 30px;
+}
+div.dgplus div.pic div.dg div{
+    padding-right: 50px;
+}
+div.dgplus div.pic div.dg div>h3{
+    width:inherit;
+    font-family: yekan;
+    font-weight: normal;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+
+div.dgplus div.pic div.dg div>button{
+    width:100px;
+    height: 35px;
+    background-color: #941B80;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: none;
+    color: white;
+    border: 1px solid white;
+    font-family: yekan;
+    font-size: small;  
+}
+div.dgplus div.pic div.dg div>button>i{
+    width: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+    
+}
+div.dgplus div.plus {
+    display:grid;
+    width: 100%;
+    height:360px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+}
+div.dgplus div.plus div.plus1 {
+    width: 100%;
+    
+}
+div.dgplus div.plus  div.plus1 div.text{
+width:100%;
+display: flex;
+flex-direction: row;
+padding-right: 20px;
+margin: 20px;
+}
+div.dgplus div.plus  div.plus1 div.text {
+    width: 100%;
+    height: 20px;
+    text-decoration: none;
+    display: block;
+   
+}
+div.dgplus div.plus  div.plus1 div.text  h4{
+    font-size: 16px;
+    font-family: yekan;
+    font-weight: 700;
+    padding-right: 10px;
+    display: inline-block;
+    vertical-align:top;
+}
+div.dgplus div.plus  div.plus1 div.text a>p{
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 600px;
+    color:#B12BA4;
+    font-family: yekan;
+    font-weight: 800;
+    font-size: 12px;
+}
+div.dgplus div.plus  div.plus1 div.text a>i{
+    display: inline-block;
+    padding-right: 5px;
+    font-size: 12px;
+    color:#B12BA4;
+    vertical-align:top;
+   
+}
+div.dgplus div.plus  div.plus1 div.images{
+    width: 100%;
+    height:fit-content;
+    margin: 0 auto;
+}
+div.dgplus div.plus  div.plus1 div.images div{
+    display:inline-block;
+    margin-right: 5px;
+
+}
+div.dgplus div.plus  div.plus1 div.images div>img{
+    width: 116px;
+    height: 116px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

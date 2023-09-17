@@ -1,0 +1,133 @@
+div.superwow{
+    width: 95%;
+    height: 120px;
+    margin: 0 auto;
+    background-color:#ECF0EE;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    background: url(../../public/imgs/banner/freshPattern.svg) left center no-repeat;
+    background-color: #f3f0f0;
+    border-radius: 16px;
+    padding: 18px 36px;
+    
+    
+     
+}
+div.superwow div.text{
+    width: 155px;
+    height: 54px;
+    
+    
+}
+div.superwow div.text>div{
+    width: 155px;
+    height: 54px;
+    background-color: white;
+    border-radius: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+div.superwow div.text>div>p{
+    width:fit-content;
+    height:fit-content;
+    font-family: yekan;
+    font-size: 14px;
+    font-weight: 700;
+    color:#39AE00
+}
+div.superwow div.text>div>p>i{
+    padding-left: 5px;
+    vertical-align: middle;
+}
+
+
+
+div.superwow>div.wow{
+    width:inherit;
+    height: 100px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center; 
+}
+div.superwow  div.wow>div{
+    width:70%;
+    height: inherit;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+    
+}
+
+
+div.superwow  div.wow>div>h3{
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    padding-right: 20px;
+}
+div.superwow  div.wow>div>button{
+
+    width: 120px;
+    height: 28px;
+    background-color:#39AE00;
+    color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-family: yekan;
+    margin: 10px;
+}
+div.superwow  div.wow  div>a{
+    width: 75px;
+    height: 75px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 10px;
+    
+    
+}
+
+
+div.superwow  div.wow  div>a>img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;     
+}
+
+
+div.superwow  div.wow  div>span{
+    width: 60px;
+    height: 20px;
+    padding: 1px 8px 1px 8px;
+    box-sizing: border-box;
+    background-color: crimson;
+    color: whitesmoke;
+    border-radius: 15px;
+    font-size: 12px;
+    font-family: yekan;
+    font-weight: normal;
+    
+}
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
